@@ -14,20 +14,20 @@
   },
   "dependencies": {
     "@types/qrcode": "^1.5.6",
-    "@vitejs/plugin-react": "^4.7.0",
     "concurrently": "^9.1.2",
     "qrcode": "^1.5.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "typescript": "^5.9.3",
-    "vite": "^5.4.21",
     "wait-on": "^8.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.29",
     "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.0.2",
     "electron": "^33.2.1",
-    "electron-builder": "^25.1.8"
+    "electron-builder": "^25.1.8",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
   },
   "optionalDependencies": {
     "@imgly/background-removal": "^1.7.0",
