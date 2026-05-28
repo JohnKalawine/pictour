@@ -1,10 +1,13 @@
 [build]
-  command = "npm install --include=dev --ignore-scripts && npm run build"
+  command = "npm run build"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
-  NPM_FLAGS = "--include=dev"
+  NPM_FLAGS = "--omit=dev --omit=optional --ignore-scripts"
+  NPM_CONFIG_AUDIT = "false"
+  NPM_CONFIG_FUND = "false"
+  NPM_CONFIG_OPTIONAL = "false"
 
 [[redirects]]
   from = "/*"
