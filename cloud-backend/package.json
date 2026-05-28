@@ -1,0 +1,18 @@
+{
+  "name": "pictour-cloud-backend-minimal",
+  "version": "4.6.3",
+  "private": true,
+  "type": "module",
+  "description": "PicTour Cloud Backend v4.6.3 - go-live real, painel SaaS, galeria digital e assinatura.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.864.0",
+    "pg": "^8.13.1"
+  }
+}
